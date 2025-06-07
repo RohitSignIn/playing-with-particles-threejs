@@ -1,8 +1,8 @@
 import * as THREE from "three";
-import GUI from "lil-gui";
+// import GUI from "lil-gui";
 import { OrbitControls } from "three/examples/jsm/Addons.js";
 
-const gui = new GUI();
+// const gui = new GUI();
 
 const canvas = document.getElementById("webgl");
 
@@ -44,7 +44,7 @@ particlesGeometry.setAttribute(
 const particlesMaterial = new THREE.PointsMaterial();
 particlesMaterial.size = 0.2;
 particlesMaterial.sizeAttenuation = true;
-particlesMaterial.color = new THREE.Color(0x0000af);
+particlesMaterial.color = new THREE.Color(0xffffff);
 
 const particles = new THREE.Points(particlesGeometry, particlesMaterial);
 

@@ -1,8 +1,8 @@
 import * as THREE from "three";
-import GUI from "lil-gui";
+// import GUI from "lil-gui";
 import { OrbitControls } from "three/examples/jsm/Addons.js";
 
-const gui = new GUI();
+// const gui = new GUI();
 
 const canvas = document.getElementById("webgl");
 
